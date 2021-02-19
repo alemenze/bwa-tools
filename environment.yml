@@ -1,0 +1,11 @@
+name: bwa-tools
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies: 
+  - bioconda::bwa=0.7.17
+  - bioconda::samtools=1.11
+  - bioconda::bcftools=1.11
+  - bioconda::bedtools=2.30.0
